@@ -1,0 +1,187 @@
+body {
+  font-family: 'Poppins', sasn-serif;
+  color: #333333;
+  letter-spacing: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  height: 22px;
+  background-color: #f9f9f9 !important;
+}
+.loginlogo 
+{
+  max-width: 196px;
+  height: 46px;
+  margin: 46px 119px 18px;
+  object-fit: contain;
+}
+.container-login100 {
+  width: 100%;  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLables
+{
+  width: 48px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333;
+}
+
+.inputElements {
+  height: 50px;
+  opacity: 0.8;
+  font-size: 14px;
+  margin: 10px 0 0;
+  padding: 10px 164px 16px 15px;
+  border-radius: 10px!important;
+  box-shadow: 0 8px 6px -7px rgba(184, 197, 216, 0.2);
+  border: solid 1px #e6e6e6;
+  background-color: #fff;
+}
+.inputElements::value
+{ 
+  height: 22px;
+  font-family: Poppins;
+  font-size: 14px; 
+  padding: 14px 0px 14px 20px;
+  border-radius: 10px!important;
+  font-weight: 600px;
+  color: #333;
+}
+.login {
+  width: 100%;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 1.8;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0 7px 6px -6px #abbbd7;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #ff7c00;
+  border: 1px solid transparent;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.login-box {
+  width: 434px;
+  height: 390px;
+  margin: 18px 0 38px;
+  padding: 47px 28px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(138, 149, 158, 0.2);
+  background-color: #fff;
+}
+
+.footer {
+  font-family: Poppins, sans-serif;
+  color: #333!important;
+  position: relative;
+  margin: 0px 0px 3% 0px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 14px;
+}
+.error
+{
+  font-family: Poppins, sans-serif;
+  color: #F00!important;
+  position: relative;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #cea8a8;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+@media(max-width: 768px)
+{
+  
+}
+@media(max-width: 992px) 
+{
+  .loginlogo
+  {
+    height: 46px;
+    margin: 46px 50px 18px;
+  }
+  .logoDiv{
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  .login-box
+  { 
+      height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+  } 
+  .container-login100{
+    width: 100%;  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  }
+}
+
+
+

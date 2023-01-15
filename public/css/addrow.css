@@ -1,0 +1,9 @@
+
+.table thead th {border-bottom:none;}
+.table td, .table th {border-top:none;}
+.table>:not(caption)>*>* {border-bottom: none;}
+.text-dark {color: #343a40!important; font-weight: normal;font-family: Roboto, Helvetica, sans-serif;}
+a:not([href]):not([tabindex]) {
+    color: #4285f4;
+    text-decoration: none;
+}
